@@ -1,0 +1,21 @@
+{
+    "name": "neirda24/8p-guzzle-token",
+    "description": "The missing 8p/guzzle-bundle plugin to set token.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Roches",
+            "email": "rochesadrien@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Guzzle\\Token\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">= 7.1",
+        "eightpoints/guzzle-bundle": "^5.3"
+    }
+}
